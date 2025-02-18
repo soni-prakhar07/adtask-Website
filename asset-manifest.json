@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/adtask-Website/static/css/main.b23cfc75.css",
-    "main.js": "/adtask-Website/static/js/main.af291fa2.js",
+    "main.js": "/adtask-Website/static/js/main.65ccce81.js",
     "static/js/453.58de5f44.chunk.js": "/adtask-Website/static/js/453.58de5f44.chunk.js",
     "static/media/Group 23.svg": "/adtask-Website/static/media/Group 23.046bc1e4b04126097450a59924298aeb.svg",
     "static/media/Group 25.png": "/adtask-Website/static/media/Group 25.6b3fee5209f5bd6fa3b2.png",
@@ -38,11 +38,11 @@
     "static/media/Line 2.svg": "/adtask-Website/static/media/Line 2.5ed6d8c306bff77e917c1b1193766457.svg",
     "static/media/Line 1.svg": "/adtask-Website/static/media/Line 1.d43dc363857507acd1a04a9aa7c78aec.svg",
     "main.b23cfc75.css.map": "/adtask-Website/static/css/main.b23cfc75.css.map",
-    "main.af291fa2.js.map": "/adtask-Website/static/js/main.af291fa2.js.map",
+    "main.65ccce81.js.map": "/adtask-Website/static/js/main.65ccce81.js.map",
     "453.58de5f44.chunk.js.map": "/adtask-Website/static/js/453.58de5f44.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b23cfc75.css",
-    "static/js/main.af291fa2.js"
+    "static/js/main.65ccce81.js"
   ]
 }
