@@ -1,0 +1,23 @@
+<svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="devicon:neovim" clip-path="url(#clip0_11001_345)">
+<g id="Group">
+<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M3.97266 9.66497L13.5447 0V44.9374L3.97266 35.3849V9.66497Z" fill="url(#paint0_linear_11001_345)"/>
+<path id="Vector_2" fill-rule="evenodd" clip-rule="evenodd" d="M40.9587 9.75123L31.2676 0L31.4639 44.9374L41.0246 35.3837L40.9587 9.75123Z" fill="#C5CDE3"/>
+<path id="Vector_3" fill-rule="evenodd" clip-rule="evenodd" d="M13.5439 0.0612793L38.432 38.0363L31.4673 44.9999L6.56641 7.10909L13.5439 0.0612793Z" fill="url(#paint1_linear_11001_345)"/>
+<path id="Vector_4" fill-rule="evenodd" clip-rule="evenodd" d="M13.5448 17.5817L13.5307 19.0738L5.88672 7.76047L6.59477 7.03625L13.5448 17.5817Z" fill="black" fill-opacity="0.129"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_11001_345" x1="8.75867" y1="44.9374" x2="8.75867" y2="0" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E2E8F8"/>
+<stop offset="1" stop-color="#858992"/>
+</linearGradient>
+<linearGradient id="paint1_linear_11001_345" x1="22.4992" y1="0.0612793" x2="22.4992" y2="44.9999" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E6EDFF"/>
+<stop offset="1" stop-color="#8A8E99"/>
+</linearGradient>
+<clipPath id="clip0_11001_345">
+<rect width="45" height="45" fill="white"/>
+</clipPath>
+</defs>
+</svg>
