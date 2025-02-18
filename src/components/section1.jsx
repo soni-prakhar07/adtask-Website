@@ -22,7 +22,7 @@ export default function Section1() {
             <img
               src={textCursor}
               alt=""
-              style={{ position: "absolute", height: "35x" }}
+              style={{ position: "absolute", height: "35px" }}
             />
           </h3>
         </div>
