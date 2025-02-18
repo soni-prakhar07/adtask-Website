@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+body {
+  background-image: url("/src/assets/background.svg");
+  background-size: cover;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +40,546 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.TheButton {
+  width: 185px;
+  height: 48px;
+
+  margin-left: "auto";
+  margin-right: "auto";
+  border-radius: 40px;
+  border: 1px solid #7587b4;
+  background: radial-gradient(
+      circle at bottom,
+      rgba(255, 255, 255, 0.2),
+      rgba(0, 0, 0) 70%
+    ),
+    url("/src/assets/textures/particles1.gif"),
+    url("/src/assets/textures/particles2.gif");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+  color: white;
+  text-align: center;
+}
+
+/* navigation bar styles */
+
+.navbar {
+  background-color: rgba(226, 223, 223, 0.04);
+  border: 0.55px solid #ffffff1e;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 20px;
+  justify-content: space-between;
+  width: 45%;
+  border-radius: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navitem {
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  z-index: 10;
+}
+
+.topbar {
+  height: 63px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: auto;
+  margin-top: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navitem .tryBtn {
+  background-color: inherit;
+  border-style: none;
+  margin-right: 0;
+}
+
+.hr1 {
+  border: 2px solid #ffffff;
+  width: 40px;
+  margin-top: 0px;
+}
+
+/* section 1 styles */
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.aidevpartners {
+  background-color: inherit;
+  border-style: none;
+}
+
+.glowLogo {
+  width: 468px;
+  height: 95.96px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: inherit;
+
+  /* Add a smooth transition for the hover effect */
+  transition: filter 0.4s ease-in-out;
+}
+
+.glowLogo:hover {
+  filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.3));
+}
+
+.adtasklogo {
+  text-align: center;
+}
+
+.tagline {
+  font-size: 15px;
+
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.tagline h3 {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #e2e8f8;
+}
+
+.trynowforfree {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.trynowforfree button {
+  background: radial-gradient(
+      circle at bottom,
+      rgba(255, 255, 255, 0.25),
+      rgba(118, 135, 181, 0.29) 70%
+    ),
+    url("/src/assets/textures/particles1.gif"),
+    url("/src/assets/textures/particles2.gif");
+
+  color: white;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 185px;
+  height: 48px;
+  top: 521px;
+  left: 628px;
+  border-radius: 40px;
+  border-width: 1px;
+  background-size: cover;
+}
+
+/* .trynowforfree button::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 40px;
+  border: 2px solid rgba(255, 255, 255, 0.8); /* Glowing effect */
+/* clip-path: inset(0 100% 0 0); Start with top border only */
+/* animation: borderAnimation 1.2s linear infinite; */
+/* } */
+
+/* Animation Keyframes */
+/* @keyframes borderAnimation { */
+/* 0% { */
+/* clip-path: inset(0 100% 0 0); Top border */
+/* } */
+/* 25% { */
+/* clip-path: inset(0 0 0 0); Full top */
+/* } */
+/* 50% { */
+/* clip-path: inset(0 0 100% 0); Right side */
+/* } */
+/* 75% { */
+/* clip-path: inset(100% 0 0 0); Bottom */
+/* } */
+/* 100% { */
+/* clip-path: inset(0 100% 0 0); Back to top */
+/* } */
+/* } */
+
+/* section 2 styles */
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.ytvid {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 970px;
+  height: 582px;
+  top: 626px;
+  left: 235px;
+  border-radius: 32px;
+  border-width: 2px;
+  border: 2px solid #566999;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 1);
+  z-index: -4;
+}
+
+.ticker {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  margin-top: 50px;
+  background: inherit;
+}
+
+.ticker-track {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  width: calc(200%);
+  animation: ticker-scroll 10s linear infinite;
+}
+
+.ticker-logo {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+}
+
+@keyframes ticker-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.platforms .intro {
+  margin-top: 80px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.platform-logos {
+  display: flex;
+  margin-top: 50px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.platform-logos button {
+  background: url("/src/assets/textures/Ellipse8.svg"),
+    rgba(120, 129, 153, 0.21);
+  height: 107px;
+  width: 112px;
+  border-radius: 16px;
+  transition: 0.5s ease-in-out;
+  margin-top: 20px;
+}
+
+.platform-logos button:hover {
+  transform: translateY(-20px);
+  background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.2) 10%,
+      rgba(120, 129, 153, 0.21) 60%
+    ),
+    rgba(120, 129, 153, 0.21);
+}
+
+/* Hidden label text */
+.platform-logos button::after {
+  content: attr(data-label);
+  text-overflow: clip;
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, bottom 0.3s ease-in-out;
+  white-space: nowrap;
+}
+
+/* Show label on hover */
+.platform-logos button:hover::after {
+  opacity: 1;
+  bottom: -20px;
+  white-space: nowrap;
+}
+
+.platform-logos button img {
+  width: 50%; /* Adjust as needed */
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.platform-logos button:hover img {
+  transform: scale(1.1); /* Makes image slightly bigger */
+}
+
+/* section 3 styles */
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.features {
+  background: inherit;
+  border: none;
+}
+
+.featuresTitle {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.featureWindow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.featuresWindow h3 {
+  font-family: Poppins;
+  margin-top: 30px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* section 4 styles */
+
+.section4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.services {
+  background: inherit;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.offeredServices {
+  margin-top: -90px;
+}
+
+/* section 5 styles */
+
+.section5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.plansbtn {
+  background: inherit;
+  border: none;
+}
+
+.plansTagline {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.plans {
+  margin-top: -100px;
+  margin-bottom: 70px;
+}
+
+/* section 6 styles */
+
+.section6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.section6 h3 {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.testimonialsbtn {
+  background: inherit;
+  border: none;
+}
+
+.testimonialsTagline {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.testimonials {
+  margin-top: -200px;
+  margin-bottom: 70px;
+}
+
+/* section 7 styles */
+
+.section7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.contactbtn {
+  background: inherit;
+  border: none;
+}
+
+.contactus {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.contactform {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.contactform label {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contactform input {
+  height: 35px;
+  width: 484px;
+  border: 1px solid #333b4f;
+  border-radius: 2px;
+  background-color: transparent;
+  color: white;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+/* section 8 styles */
+
+.section8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.final {
+  margin-top: -120px;
+}
+
+.section8 hr {
+  border: 1px solid #333b4f;
+  width: calc(100% - 2px);
+  margin-top: 130px;
+}
+
+.adlogo {
+  height: 92px;
+  width: 441.6px;
+  margin-top: 50px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+.bottomnav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.bottomnav .navi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 70px;
+}
+
+.navi button {
+  background: inherit;
+  border: none;
+  color: white;
+  font-family: Poppins;
+  font-size: 15px;
 }
