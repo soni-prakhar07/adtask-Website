@@ -1,27 +1,26 @@
 import "./App.css";
 import Navbar from "./components/navbar";
-import Section1 from "./components/section1";
-import Section2 from "./components/section2";
-import Section3 from "./components/section3";
-import Section4 from "./components/section4";
-import Section5 from "./components/section5";
-import Section6 from "./components/section6";
-import Section7 from "./components/section7";
-import Section8 from "./components/section8";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/home";
+import Login from "./pages/login";
+import Register from "./pages/register";
+import Chathistory from "./pages/chatHistory";
+import Chat from "./pages/chat";
+import AllCampaigns from "./pages/allCampaigns";
 
 function App() {
   return (
-    <div>
+    <Router>
       <Navbar />
-      <Section1 />
-      <Section2 />
-      <Section3 />
-      <Section4 />
-      <Section5 />
-      <Section6 />
-      <Section7 />
-      <Section8 />
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/chat-history" element={<Chathistory />} />
+        <Route path="/chat" element={<Chat />} />
+        <Route path="/all-campaigns" element={<AllCampaigns />} />
+      </Routes>
+    </Router>
   );
 }
 

@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/logos/adTask.ai.svg";
 import trynow from "../assets/Frame 1341.svg";
+import PrimaryButton from "./primaryButton";
 
 export default function Navbar() {
   return (
@@ -18,6 +19,9 @@ export default function Navbar() {
           <button className="tryBtn" onClick={() => alert("Try Now")}>
             <img src={trynow} alt="" />
           </button>
+        </div>
+        <div className="navitem" style={{ marginRight: "0" }}>
+          <PrimaryButton text="Login" link={"/login"} />
         </div>
       </nav>
       <hr className="hr1" />
