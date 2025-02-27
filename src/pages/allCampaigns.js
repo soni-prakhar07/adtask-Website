@@ -61,7 +61,7 @@ export default function AllCampaigns() {
   };
 
   const handleClick = () => {
-    navigate("/chat");
+    navigate("/adtask-Website/chat");
   };
 
   return (

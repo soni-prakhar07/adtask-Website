@@ -55,7 +55,7 @@ export default function Register() {
         );
 
         if (verifyResponse.ok) {
-          navigate("/chat"); // Redirect if token is valid
+          navigate("/adtask-Website/chat"); // Redirect if token is valid
         } else {
           setError("Token verification failed. Please try again.");
         }
@@ -133,7 +133,7 @@ export default function Register() {
           </button>
         </form>
         <p>
-          Already have an account? <a href="/login">login</a>
+          Already have an account? <a href="/adtask-Website/login">login</a>
         </p>
       </div>
     </div>
