@@ -1,7 +1,6 @@
 {
   "name": "adtask",
   "version": "0.1.0",
-  "homepage": "https://soni-prakhar07.github.io/adtask-Website",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",

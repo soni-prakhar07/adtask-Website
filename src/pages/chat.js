@@ -93,7 +93,7 @@ export default function Chat() {
   };
 
   const handleClick = () => {
-    navigate("/adtask-Website/all-campaigns");
+    navigate("/all-campaigns");
   };
 
   const createCampaign = async () => {

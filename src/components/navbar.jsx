@@ -21,7 +21,7 @@ export default function Navbar() {
           </button>
         </div>
         <div className="navitem" style={{ marginRight: "0" }}>
-          <PrimaryButton text="Login" link={"/adtask-Website/login"} />
+          <PrimaryButton text="Login" link={"/login"} />
         </div>
       </nav>
       <hr className="hr1" />

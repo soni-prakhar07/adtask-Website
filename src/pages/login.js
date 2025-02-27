@@ -52,7 +52,7 @@ export default function Login() {
         );
 
         if (verifyResponse.ok) {
-          navigate("/adtask-Website/chat"); // Redirect if token is valid
+          navigate("/chat"); // Redirect if token is valid
         } else {
           setError("Token verification failed. Please try again.");
         }
@@ -101,7 +101,7 @@ export default function Login() {
 
         <p>
           New Here?
-          <a href="/adtask-Website/register"> Register</a>
+          <a href="/register"> Register</a>
         </p>
       </div>
     </div>

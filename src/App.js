@@ -13,15 +13,12 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/adtask-Website" element={<Home />} />
-        <Route path="/adtask-Website/register" element={<Register />} />
-        <Route path="/adtask-Website/login" element={<Login />} />
-        <Route path="/adtask-Website/chat-history" element={<Chathistory />} />
-        <Route path="/adtask-Website/chat" element={<Chat />} />
-        <Route
-          path="/adtask-Website/all-campaigns"
-          element={<AllCampaigns />}
-        />
+        <Route path="/" element={<Home />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/chat-history" element={<Chathistory />} />
+        <Route path="/chat" element={<Chat />} />
+        <Route path="/all-campaigns" element={<AllCampaigns />} />
       </Routes>
     </Router>
   );
