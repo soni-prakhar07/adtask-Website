@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/adtask-Website/static/css/main.5454bc86.css",
-    "main.js": "/adtask-Website/static/js/main.fd3b364c.js",
+    "main.css": "/adtask-Website/static/css/main.db608efb.css",
+    "main.js": "/adtask-Website/static/js/main.3ac6985a.js",
     "static/js/453.58de5f44.chunk.js": "/adtask-Website/static/js/453.58de5f44.chunk.js",
     "static/media/Group 23.svg": "/adtask-Website/static/media/Group 23.029f1dd7eaa46ba078536c2cb5c1d5dd.svg",
     "static/media/Group 25.png": "/adtask-Website/static/media/Group 25.6b3fee5209f5bd6fa3b2.png",
@@ -37,12 +37,12 @@
     "static/media/Ellipse8.svg": "/adtask-Website/static/media/Ellipse8.f967c0dce2aa210ed470.svg",
     "static/media/Line 2.svg": "/adtask-Website/static/media/Line 2.28a7f71f726e6f97573a70bf1e151730.svg",
     "static/media/Line 1.svg": "/adtask-Website/static/media/Line 1.07cf533fcd46b129b5efb4a47ce87252.svg",
-    "main.5454bc86.css.map": "/adtask-Website/static/css/main.5454bc86.css.map",
-    "main.fd3b364c.js.map": "/adtask-Website/static/js/main.fd3b364c.js.map",
+    "main.db608efb.css.map": "/adtask-Website/static/css/main.db608efb.css.map",
+    "main.3ac6985a.js.map": "/adtask-Website/static/js/main.3ac6985a.js.map",
     "453.58de5f44.chunk.js.map": "/adtask-Website/static/js/453.58de5f44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5454bc86.css",
-    "static/js/main.fd3b364c.js"
+    "static/css/main.db608efb.css",
+    "static/js/main.3ac6985a.js"
   ]
 }
